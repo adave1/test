@@ -1,0 +1,5201 @@
+2016-03-02 15:46:55 INFO  HTTPMonitoringDataPublisher:104 - Initializing HTTP Monitoring Data Publisher
+2016-03-02 15:46:55 INFO  Metrics:50 - Initializing Metrics Service
+2016-03-02 15:46:55 INFO  JmxReporterBuilder:58 - Creating JMX reporter for Metrics with domain 'org.wso2.carbon.metrics'
+2016-03-02 15:46:55 INFO  ConsoleReporterBuilder:73 - Creating Console reporter for Metrics with 60 seconds polling period
+2016-03-02 15:46:55 INFO  DASReporterBuilder:162 - Creating DAS reporter for Metrics with source 'DA5-ISDU-N3845', protocol 'thrift' and 60 seconds polling period
+2016-03-02 15:46:55 INFO  AbstractReporter:39 - Started JMX reporter for Metrics
+2016-03-02 15:46:55 INFO  AbstractReporter:39 - Started DAS reporter for Metrics
+2016-03-02 15:46:55 INFO  AbstractReporter:39 - Started Console reporter for Metrics
+2016-03-02 15:46:56 INFO  MicroservicesRegistry:76 - Added microservice: gov.azdeq.mydeq.dashboard.service.v1.DashboardRestService@77cd7a0
+2016-03-02 15:46:56 INFO  MicroservicesRegistry:76 - Added microservice: gov.azdeq.mydeq.service.HelloService@578486a3
+2016-03-02 15:46:56 INFO  NettyListener:56 - Starting Netty Http Transport Listener
+2016-03-02 15:46:56 INFO  NettyListener:80 - Netty Listener starting on port 8080
+2016-03-02 15:46:56 INFO  MicroservicesRunner:122 - Microservices server started in 1522ms
+3/2/16 3:47:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3187
+jvm.class-loading.loaded.total
+             value = 3187
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.011433268603406755
+jvm.memory.heap.used
+             value = 21507640
+jvm.memory.non-heap.committed
+             value = 24313856
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.3421384E7
+jvm.memory.non-heap.used
+             value = 23421384
+jvm.memory.pools.Code-Cache.committed
+             value = 4390912
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.01730499267578125
+jvm.memory.pools.Code-Cache.used
+             value = 4354944
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2359296
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.002005830407142639
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2153744
+jvm.memory.pools.Metaspace.committed
+             value = 17563648
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9629776228719683
+jvm.memory.pools.Metaspace.used
+             value = 16913400
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.017549162090949293
+jvm.memory.pools.PS-Eden-Space.used
+             value = 12191080
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 153288704
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 44935192
+jvm.os.cpu.load.process
+             value = 0.0037282656336848703
+jvm.os.cpu.load.system
+             value = 1.0
+jvm.os.physical.memory.free.size
+             value = 1062035456
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1265504256
+jvm.os.swap.space.total.size
+             value = 13070307328
+jvm.os.virtual.memory.committed.size
+             value = 273612800
+
+
+3/2/16 3:48:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3187
+jvm.class-loading.loaded.total
+             value = 3187
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.011433268603406755
+jvm.memory.heap.used
+             value = 21507640
+jvm.memory.non-heap.committed
+             value = 24379392
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.3551192E7
+jvm.memory.non-heap.used
+             value = 23571416
+jvm.memory.pools.Code-Cache.committed
+             value = 4521984
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.017779795328776042
+jvm.memory.pools.Code-Cache.used
+             value = 4475328
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2359296
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.002005830407142639
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2153744
+jvm.memory.pools.Metaspace.committed
+             value = 17563648
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9650614724230411
+jvm.memory.pools.Metaspace.used
+             value = 16950000
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.017549162090949293
+jvm.memory.pools.PS-Eden-Space.used
+             value = 12191080
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 153419776
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 45112616
+jvm.os.cpu.load.process
+             value = 1.9509555756673145E-4
+jvm.os.cpu.load.system
+             value = 0.27721188490193227
+jvm.os.physical.memory.free.size
+             value = 1066434560
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1290969088
+jvm.os.swap.space.total.size
+             value = 13070307328
+jvm.os.virtual.memory.committed.size
+             value = 270544896
+
+
+3/2/16 3:49:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3187
+jvm.class-loading.loaded.total
+             value = 3187
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.011523885737560531
+jvm.memory.heap.used
+             value = 21678104
+jvm.memory.non-heap.committed
+             value = 24576000
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.3727392E7
+jvm.memory.non-heap.used
+             value = 23727392
+jvm.memory.pools.Code-Cache.committed
+             value = 4653056
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.01827545166015625
+jvm.memory.pools.Code-Cache.used
+             value = 4599168
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2359296
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.002005830407142639
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2153744
+jvm.memory.pools.Metaspace.committed
+             value = 17563648
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9664748462278452
+jvm.memory.pools.Metaspace.used
+             value = 16974824
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.017794546451208728
+jvm.memory.pools.PS-Eden-Space.used
+             value = 12361544
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 153550848
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 45406576
+jvm.os.cpu.load.process
+             value = 5.845360802182998E-4
+jvm.os.cpu.load.system
+             value = 0.32376796629082494
+jvm.os.physical.memory.free.size
+             value = 1059864576
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1261101056
+jvm.os.swap.space.total.size
+             value = 13070307328
+jvm.os.virtual.memory.committed.size
+             value = 270610432
+
+
+3/2/16 3:50:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3187
+jvm.class-loading.loaded.total
+             value = 3187
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.011523885737560531
+jvm.memory.heap.used
+             value = 21678104
+jvm.memory.non-heap.committed
+             value = 24641536
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.3877472E7
+jvm.memory.non-heap.used
+             value = 23877472
+jvm.memory.pools.Code-Cache.committed
+             value = 4718592
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.01872278849283854
+jvm.memory.pools.Code-Cache.used
+             value = 4714048
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2359296
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.002005830407142639
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2153744
+jvm.memory.pools.Metaspace.committed
+             value = 17563648
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9689536023495803
+jvm.memory.pools.Metaspace.used
+             value = 17021048
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.017794546451208728
+jvm.memory.pools.PS-Eden-Space.used
+             value = 12361544
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 153681920
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 45603560
+jvm.os.cpu.load.process
+             value = 1.300984182053529E-4
+jvm.os.cpu.load.system
+             value = 0.2972083448546836
+jvm.os.physical.memory.free.size
+             value = 1038716928
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1241313280
+jvm.os.swap.space.total.size
+             value = 13070307328
+jvm.os.virtual.memory.committed.size
+             value = 271736832
+
+
+3/2/16 3:51:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3187
+jvm.class-loading.loaded.total
+             value = 3187
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.011523885737560531
+jvm.memory.heap.used
+             value = 21678104
+jvm.memory.non-heap.committed
+             value = 24838144
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.4085568E7
+jvm.memory.non-heap.used
+             value = 24085568
+jvm.memory.pools.Code-Cache.committed
+             value = 4915200
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.019341278076171874
+jvm.memory.pools.Code-Cache.used
+             value = 4867392
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2359296
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.002005830407142639
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2153744
+jvm.memory.pools.Metaspace.committed
+             value = 17563648
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9724380720907183
+jvm.memory.pools.Metaspace.used
+             value = 17079560
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.017794546451208728
+jvm.memory.pools.PS-Eden-Space.used
+             value = 12361544
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 153878528
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 45870512
+jvm.os.cpu.load.process
+             value = 3.248450624340961E-4
+jvm.os.cpu.load.system
+             value = 0.3224381675255662
+jvm.os.physical.memory.free.size
+             value = 993943552
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1209249792
+jvm.os.swap.space.total.size
+             value = 13070307328
+jvm.os.virtual.memory.committed.size
+             value = 270958592
+
+
+3/2/16 3:52:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3187
+jvm.class-loading.loaded.total
+             value = 3187
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.011614464597159804
+jvm.memory.heap.used
+             value = 21848496
+jvm.memory.non-heap.committed
+             value = 24969216
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.4261528E7
+jvm.memory.non-heap.used
+             value = 24261528
+jvm.memory.pools.Code-Cache.committed
+             value = 5046272
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.01984405517578125
+jvm.memory.pools.Code-Cache.used
+             value = 4993920
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2359296
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.002005830407142639
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2153744
+jvm.memory.pools.Metaspace.committed
+             value = 17563648
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9743911970907183
+jvm.memory.pools.Metaspace.used
+             value = 17113864
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.01803982716686321
+jvm.memory.pools.PS-Eden-Space.used
+             value = 12531936
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 153944064
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 46112616
+jvm.os.cpu.load.process
+             value = 1.3005069238453086E-4
+jvm.os.cpu.load.system
+             value = 0.2929794112683244
+jvm.os.physical.memory.free.size
+             value = 982073344
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1199865856
+jvm.os.swap.space.total.size
+             value = 13070307328
+jvm.os.virtual.memory.committed.size
+             value = 271618048
+
+
+3/2/16 3:53:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3187
+jvm.class-loading.loaded.total
+             value = 3187
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.011614464597159804
+jvm.memory.heap.used
+             value = 21848496
+jvm.memory.non-heap.committed
+             value = 25362432
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.4414168E7
+jvm.memory.non-heap.used
+             value = 24414168
+jvm.memory.pools.Code-Cache.committed
+             value = 5177344
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.020290120442708334
+jvm.memory.pools.Code-Cache.used
+             value = 5106176
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2359296
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.002005830407142639
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2153744
+jvm.memory.pools.Metaspace.committed
+             value = 17825792
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9623273961684283
+jvm.memory.pools.Metaspace.used
+             value = 17154624
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.01803982716686321
+jvm.memory.pools.PS-Eden-Space.used
+             value = 12531936
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 154337280
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 46267544
+jvm.os.cpu.load.process
+             value = 3.899310093988518E-4
+jvm.os.cpu.load.system
+             value = 0.3636975807460501
+jvm.os.physical.memory.free.size
+             value = 918749184
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1141624832
+jvm.os.swap.space.total.size
+             value = 13070307328
+jvm.os.virtual.memory.committed.size
+             value = 272011264
+
+
+3/2/16 3:54:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3188
+jvm.class-loading.loaded.total
+             value = 3188
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.011614464597159804
+jvm.memory.heap.used
+             value = 21848496
+jvm.memory.non-heap.committed
+             value = 25427968
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.4487952E7
+jvm.memory.non-heap.used
+             value = 24487952
+jvm.memory.pools.Code-Cache.committed
+             value = 5242880
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.02050298055013021
+jvm.memory.pools.Code-Cache.used
+             value = 5159744
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2359296
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.0020063593983650208
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2154312
+jvm.memory.pools.Metaspace.committed
+             value = 17825792
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9634296192842371
+jvm.memory.pools.Metaspace.used
+             value = 17173896
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.019021042158018867
+jvm.memory.pools.PS-Eden-Space.used
+             value = 13213568
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 154402816
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 47019872
+jvm.os.cpu.load.process
+             value = 4.548588681698041E-4
+jvm.os.cpu.load.system
+             value = 1.0
+jvm.os.physical.memory.free.size
+             value = 948768768
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1182945280
+jvm.os.swap.space.total.size
+             value = 13070307328
+jvm.os.virtual.memory.committed.size
+             value = 272097280
+
+
+3/2/16 3:55:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3198
+jvm.class-loading.loaded.total
+             value = 3198
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.011976814057383118
+jvm.memory.heap.used
+             value = 22530128
+jvm.memory.non-heap.committed
+             value = 25493504
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.4609584E7
+jvm.memory.non-heap.used
+             value = 24609584
+jvm.memory.pools.Code-Cache.committed
+             value = 5308416
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.020777130126953126
+jvm.memory.pools.Code-Cache.used
+             value = 5228736
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2359296
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.0020116493105888367
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2159992
+jvm.memory.pools.Metaspace.committed
+             value = 17825792
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9661896649528953
+jvm.memory.pools.Metaspace.used
+             value = 17223096
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.019021042158018867
+jvm.memory.pools.PS-Eden-Space.used
+             value = 13213568
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 154468352
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 47141952
+jvm.os.cpu.load.process
+             value = 3.2453687054729945E-4
+jvm.os.cpu.load.system
+             value = 0.3229173711954503
+jvm.os.physical.memory.free.size
+             value = 908587008
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1151389696
+jvm.os.swap.space.total.size
+             value = 13070307328
+jvm.os.virtual.memory.committed.size
+             value = 273014784
+
+
+3/2/16 3:56:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3198
+jvm.class-loading.loaded.total
+             value = 3198
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.012067392916982389
+jvm.memory.heap.used
+             value = 22700520
+jvm.memory.non-heap.committed
+             value = 25493504
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.4656752E7
+jvm.memory.non-heap.used
+             value = 24656752
+jvm.memory.pools.Code-Cache.committed
+             value = 5308416
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.020921071370442707
+jvm.memory.pools.Code-Cache.used
+             value = 5264960
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2359296
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.0020116493105888367
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2159992
+jvm.memory.pools.Metaspace.committed
+             value = 17825792
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9666779462028953
+jvm.memory.pools.Metaspace.used
+             value = 17231800
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.019266322873673348
+jvm.memory.pools.PS-Eden-Space.used
+             value = 13383960
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 154468352
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 47358296
+jvm.os.cpu.load.process
+             value = 1.327693524844271E-4
+jvm.os.cpu.load.system
+             value = 0.36643543530707534
+jvm.os.physical.memory.free.size
+             value = 932233216
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1168805888
+jvm.os.swap.space.total.size
+             value = 13070307328
+jvm.os.virtual.memory.committed.size
+             value = 273092608
+
+
+3/2/16 3:57:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3198
+jvm.class-loading.loaded.total
+             value = 3198
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.012067392916982389
+jvm.memory.heap.used
+             value = 22700520
+jvm.memory.non-heap.committed
+             value = 25493504
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.4658584E7
+jvm.memory.non-heap.used
+             value = 24658584
+jvm.memory.pools.Code-Cache.committed
+             value = 5308416
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.020920817057291666
+jvm.memory.pools.Code-Cache.used
+             value = 5264896
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2359296
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.0020116493105888367
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2159992
+jvm.memory.pools.Metaspace.committed
+             value = 17825792
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9668004653033089
+jvm.memory.pools.Metaspace.used
+             value = 17233984
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.019266322873673348
+jvm.memory.pools.PS-Eden-Space.used
+             value = 13383960
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 154468352
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 47360224
+jvm.os.cpu.load.process
+             value = 3.2456928425744503E-4
+jvm.os.cpu.load.system
+             value = 0.35791566501892885
+jvm.os.physical.memory.free.size
+             value = 845008896
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1079988224
+jvm.os.swap.space.total.size
+             value = 13070307328
+jvm.os.virtual.memory.committed.size
+             value = 273203200
+
+
+3/2/16 3:58:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3198
+jvm.class-loading.loaded.total
+             value = 3198
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.012067392916982389
+jvm.memory.heap.used
+             value = 22700520
+jvm.memory.non-heap.committed
+             value = 25559040
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.469504E7
+jvm.memory.non-heap.used
+             value = 24695040
+jvm.memory.pools.Code-Cache.committed
+             value = 5373952
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.021039326985677082
+jvm.memory.pools.Code-Cache.used
+             value = 5294720
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2359296
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.0020116493105888367
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2159992
+jvm.memory.pools.Metaspace.committed
+             value = 17825792
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9672155941233915
+jvm.memory.pools.Metaspace.used
+             value = 17241384
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.019266322873673348
+jvm.memory.pools.PS-Eden-Space.used
+             value = 13383960
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 154533888
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 47396616
+jvm.os.cpu.load.process
+             value = 1.301635553496003E-4
+jvm.os.cpu.load.system
+             value = 0.333899121770066
+jvm.os.physical.memory.free.size
+             value = 839233536
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1082683392
+jvm.os.swap.space.total.size
+             value = 13070307328
+jvm.os.virtual.memory.committed.size
+             value = 273158144
+
+
+3/2/16 3:59:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3198
+jvm.class-loading.loaded.total
+             value = 3198
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.012157971776581662
+jvm.memory.heap.used
+             value = 22870912
+jvm.memory.non-heap.committed
+             value = 25559040
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.4705184E7
+jvm.memory.non-heap.used
+             value = 24705184
+jvm.memory.pools.Code-Cache.committed
+             value = 5373952
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.021071370442708334
+jvm.memory.pools.Code-Cache.used
+             value = 5302784
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2359296
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.0020116493105888367
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2159992
+jvm.memory.pools.Metaspace.committed
+             value = 17825792
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9672730389763328
+jvm.memory.pools.Metaspace.used
+             value = 17242408
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.01951160358932783
+jvm.memory.pools.PS-Eden-Space.used
+             value = 13554352
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 154533888
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 47577152
+jvm.os.cpu.load.process
+             value = 1.2998783454987834E-4
+jvm.os.cpu.load.system
+             value = 0.3231533463320334
+jvm.os.physical.memory.free.size
+             value = 852021248
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1162313728
+jvm.os.swap.space.total.size
+             value = 13125918720
+jvm.os.virtual.memory.committed.size
+             value = 273219584
+
+
+3/2/16 4:00:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3198
+jvm.class-loading.loaded.total
+             value = 3198
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.012157971776581662
+jvm.memory.heap.used
+             value = 22870912
+jvm.memory.non-heap.committed
+             value = 25559040
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.4717048E7
+jvm.memory.non-heap.used
+             value = 24717048
+jvm.memory.pools.Code-Cache.committed
+             value = 5373952
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.021111806233723957
+jvm.memory.pools.Code-Cache.used
+             value = 5316672
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2359296
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.0020116493105888367
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2159992
+jvm.memory.pools.Metaspace.committed
+             value = 17825792
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9673677332261029
+jvm.memory.pools.Metaspace.used
+             value = 17244096
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.01951160358932783
+jvm.memory.pools.PS-Eden-Space.used
+             value = 13554352
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 154533888
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 47589816
+jvm.os.cpu.load.process
+             value = 1.9499475147491583E-4
+jvm.os.cpu.load.system
+             value = 0.3938812119288113
+jvm.os.physical.memory.free.size
+             value = 892977152
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1215016960
+jvm.os.swap.space.total.size
+             value = 13125918720
+jvm.os.virtual.memory.committed.size
+             value = 273211392
+
+
+3/2/16 4:01:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3198
+jvm.class-loading.loaded.total
+             value = 3198
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.012157971776581662
+jvm.memory.heap.used
+             value = 22870912
+jvm.memory.non-heap.committed
+             value = 25559040
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.4743456E7
+jvm.memory.non-heap.used
+             value = 24743456
+jvm.memory.pools.Code-Cache.committed
+             value = 5373952
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.02120819091796875
+jvm.memory.pools.Code-Cache.used
+             value = 5337216
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2359296
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.0020116493105888367
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2159992
+jvm.memory.pools.Metaspace.committed
+             value = 17825792
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9674884571748621
+jvm.memory.pools.Metaspace.used
+             value = 17246248
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.01951160358932783
+jvm.memory.pools.PS-Eden-Space.used
+             value = 13554352
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 154533888
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 48295936
+jvm.os.cpu.load.process
+             value = 4.5496500367463546E-4
+jvm.os.cpu.load.system
+             value = 0.36955900243309003
+jvm.os.physical.memory.free.size
+             value = 857632768
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1154387968
+jvm.os.swap.space.total.size
+             value = 13125918720
+jvm.os.virtual.memory.committed.size
+             value = 270909440
+
+
+3/2/16 4:02:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3198
+jvm.class-loading.loaded.total
+             value = 3198
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.012520287214978748
+jvm.memory.heap.used
+             value = 23552480
+jvm.memory.non-heap.committed
+             value = 25624576
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.4555592E7
+jvm.memory.non-heap.used
+             value = 24555592
+jvm.memory.pools.Code-Cache.committed
+             value = 5439488
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.020400492350260417
+jvm.memory.pools.Code-Cache.used
+             value = 5133952
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2359296
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.0020116493105888367
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2159992
+jvm.memory.pools.Metaspace.committed
+             value = 17825792
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9683523739085478
+jvm.memory.pools.Metaspace.used
+             value = 17261648
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.020492726451945754
+jvm.memory.pools.PS-Eden-Space.used
+             value = 14235920
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 154599424
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 48108072
+jvm.os.cpu.load.process
+             value = 1.949362666959218E-4
+jvm.os.cpu.load.system
+             value = 0.33071881767733513
+jvm.os.physical.memory.free.size
+             value = 856498176
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1182982144
+jvm.os.swap.space.total.size
+             value = 13125918720
+jvm.os.virtual.memory.committed.size
+             value = 274370560
+
+
+3/2/16 4:03:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3198
+jvm.class-loading.loaded.total
+             value = 3198
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.012610866074578021
+jvm.memory.heap.used
+             value = 23722872
+jvm.memory.non-heap.committed
+             value = 25624576
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.450876E7
+jvm.memory.non-heap.used
+             value = 24508760
+jvm.memory.pools.Code-Cache.committed
+             value = 5439488
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.02018915812174479
+jvm.memory.pools.Code-Cache.used
+             value = 5080768
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2359296
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.0020116493105888367
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2159992
+jvm.memory.pools.Metaspace.committed
+             value = 17825792
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9687087115119485
+jvm.memory.pools.Metaspace.used
+             value = 17268000
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.020738007167600235
+jvm.memory.pools.PS-Eden-Space.used
+             value = 14406312
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 154599424
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 48231632
+jvm.os.cpu.load.process
+             value = 4.551318881483644E-4
+jvm.os.cpu.load.system
+             value = 0.30683413309968666
+jvm.os.physical.memory.free.size
+             value = 844972032
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1166217216
+jvm.os.swap.space.total.size
+             value = 13125918720
+jvm.os.virtual.memory.committed.size
+             value = 272629760
+
+
+3/2/16 4:04:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3198
+jvm.class-loading.loaded.total
+             value = 3198
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.012610866074578021
+jvm.memory.heap.used
+             value = 23722872
+jvm.memory.non-heap.committed
+             value = 25624576
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.4538704E7
+jvm.memory.non-heap.used
+             value = 24538704
+jvm.memory.pools.Code-Cache.committed
+             value = 5439488
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.02028834025065104
+jvm.memory.pools.Code-Cache.used
+             value = 5105728
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2359296
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.0020116493105888367
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2159992
+jvm.memory.pools.Metaspace.committed
+             value = 17825792
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9689883063821232
+jvm.memory.pools.Metaspace.used
+             value = 17272984
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.020738007167600235
+jvm.memory.pools.PS-Eden-Space.used
+             value = 14406312
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 154599424
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 48261576
+jvm.os.cpu.load.process
+             value = 1.2999650098327722E-4
+jvm.os.cpu.load.system
+             value = 0.37296187875712067
+jvm.os.physical.memory.free.size
+             value = 873918464
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1198489600
+jvm.os.swap.space.total.size
+             value = 13125918720
+jvm.os.virtual.memory.committed.size
+             value = 273174528
+
+
+3/2/16 4:05:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3665
+jvm.class-loading.loaded.total
+             value = 3665
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.017677098745220613
+jvm.memory.heap.used
+             value = 33253192
+jvm.memory.non-heap.committed
+             value = 28246016
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.743504E7
+jvm.memory.non-heap.used
+             value = 27435040
+jvm.memory.pools.Code-Cache.committed
+             value = 5439488
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.021157582600911457
+jvm.memory.pools.Code-Cache.used
+             value = 5324480
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2621440
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.002321593463420868
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2492792
+jvm.memory.pools.Metaspace.committed
+             value = 20185088
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9718941032112419
+jvm.memory.pools.Metaspace.used
+             value = 19617768
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.03445698288251769
+jvm.memory.pools.PS-Eden-Space.used
+             value = 23936632
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 157220864
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 60688232
+jvm.os.cpu.load.process
+             value = 0.001494860097323601
+jvm.os.cpu.load.system
+             value = 0.35375470936381087
+jvm.os.physical.memory.free.size
+             value = 873426944
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1203916800
+jvm.os.swap.space.total.size
+             value = 13125918720
+jvm.os.virtual.memory.committed.size
+             value = 277409792
+
+-- Meters ----------------------------------------------------------------------
+gov.azdeq.mydeq.dashboard.service.v1.DashboardRestService.getUserPermit
+             count = 1
+         mean rate = 0.09 events/second
+     1-minute rate = 0.18 events/second
+     5-minute rate = 0.20 events/second
+    15-minute rate = 0.20 events/second
+
+
+3/2/16 4:06:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3669
+jvm.class-loading.loaded.total
+             value = 3669
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.017767677604819884
+jvm.memory.heap.used
+             value = 33423584
+jvm.memory.non-heap.committed
+             value = 28246016
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.7473936E7
+jvm.memory.non-heap.used
+             value = 27473936
+jvm.memory.pools.Code-Cache.committed
+             value = 5439488
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.02124964396158854
+jvm.memory.pools.Code-Cache.used
+             value = 5347648
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2621440
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.002324052155017853
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2495432
+jvm.memory.pools.Metaspace.committed
+             value = 20185088
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9725425026633523
+jvm.memory.pools.Metaspace.used
+             value = 19630856
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.03470226359817217
+jvm.memory.pools.PS-Eden-Space.used
+             value = 24107024
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 157220864
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 60897520
+jvm.os.cpu.load.process
+             value = 6.49885015664753E-4
+jvm.os.cpu.load.system
+             value = 0.35344017343091205
+jvm.os.physical.memory.free.size
+             value = 886759424
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1185890304
+jvm.os.swap.space.total.size
+             value = 13125918720
+jvm.os.virtual.memory.committed.size
+             value = 278401024
+
+-- Meters ----------------------------------------------------------------------
+gov.azdeq.mydeq.dashboard.service.v1.DashboardRestService.getUserPermit
+             count = 1
+         mean rate = 0.01 events/second
+     1-minute rate = 0.07 events/second
+     5-minute rate = 0.16 events/second
+    15-minute rate = 0.19 events/second
+
+
+3/2/16 4:07:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3669
+jvm.class-loading.loaded.total
+             value = 3669
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.017767677604819884
+jvm.memory.heap.used
+             value = 33423584
+jvm.memory.non-heap.committed
+             value = 28246016
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.7488248E7
+jvm.memory.non-heap.used
+             value = 27488248
+jvm.memory.pools.Code-Cache.committed
+             value = 5439488
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.0212982177734375
+jvm.memory.pools.Code-Cache.used
+             value = 5359872
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2621440
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.002324052155017853
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2495432
+jvm.memory.pools.Metaspace.committed
+             value = 20185088
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9726459453632306
+jvm.memory.pools.Metaspace.used
+             value = 19632944
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.03470226359817217
+jvm.memory.pools.PS-Eden-Space.used
+             value = 24107024
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 157220864
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 60911832
+jvm.os.cpu.load.process
+             value = 2.600146713004518E-4
+jvm.os.cpu.load.system
+             value = 0.29067997669236756
+jvm.os.physical.memory.free.size
+             value = 859877376
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1150066688
+jvm.os.swap.space.total.size
+             value = 13125918720
+jvm.os.virtual.memory.committed.size
+             value = 276848640
+
+-- Meters ----------------------------------------------------------------------
+gov.azdeq.mydeq.dashboard.service.v1.DashboardRestService.getUserPermit
+             count = 1
+         mean rate = 0.01 events/second
+     1-minute rate = 0.02 events/second
+     5-minute rate = 0.13 events/second
+    15-minute rate = 0.17 events/second
+
+
+3/2/16 4:08:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3669
+jvm.class-loading.loaded.total
+             value = 3669
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.018130018559586642
+jvm.memory.heap.used
+             value = 34105200
+jvm.memory.non-heap.committed
+             value = 28246016
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.7514176E7
+jvm.memory.non-heap.used
+             value = 27514176
+jvm.memory.pools.Code-Cache.committed
+             value = 5439488
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.02133916219075521
+jvm.memory.pools.Code-Cache.used
+             value = 5370176
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2621440
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.002324052155017853
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2495432
+jvm.memory.pools.Metaspace.committed
+             value = 20185088
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9734199821174919
+jvm.memory.pools.Metaspace.used
+             value = 19648568
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.0356834555571934
+jvm.memory.pools.PS-Eden-Space.used
+             value = 24788640
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 157220864
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 61632968
+jvm.os.cpu.load.process
+             value = 3.2478554123466295E-4
+jvm.os.cpu.load.system
+             value = 0.27819661316008515
+jvm.os.physical.memory.free.size
+             value = 864817152
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1164267520
+jvm.os.swap.space.total.size
+             value = 13125918720
+jvm.os.virtual.memory.committed.size
+             value = 277499904
+
+-- Meters ----------------------------------------------------------------------
+gov.azdeq.mydeq.dashboard.service.v1.DashboardRestService.getUserPermit
+             count = 1
+         mean rate = 0.01 events/second
+     1-minute rate = 0.01 events/second
+     5-minute rate = 0.11 events/second
+    15-minute rate = 0.16 events/second
+
+
+3/2/16 4:09:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3669
+jvm.class-loading.loaded.total
+             value = 3669
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.018582912857583
+jvm.memory.heap.used
+             value = 34957160
+jvm.memory.non-heap.committed
+             value = 28246016
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.7554984E7
+jvm.memory.non-heap.used
+             value = 27554984
+jvm.memory.pools.Code-Cache.committed
+             value = 5439488
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.02147979736328125
+jvm.memory.pools.Code-Cache.used
+             value = 5405568
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2621440
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.002324052155017853
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2495432
+jvm.memory.pools.Metaspace.committed
+             value = 20185088
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9736882990056818
+jvm.memory.pools.Metaspace.used
+             value = 19653984
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.0369098591354658
+jvm.memory.pools.PS-Eden-Space.used
+             value = 25640600
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 157220864
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 62512144
+jvm.os.cpu.load.process
+             value = 0.0
+jvm.os.cpu.load.system
+             value = 0.30048910314866073
+jvm.os.physical.memory.free.size
+             value = 834539520
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1209221120
+jvm.os.swap.space.total.size
+             value = 13209157632
+jvm.os.virtual.memory.committed.size
+             value = 277835776
+
+-- Meters ----------------------------------------------------------------------
+gov.azdeq.mydeq.dashboard.service.v1.DashboardRestService.getUserPermit
+             count = 1
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.09 events/second
+    15-minute rate = 0.15 events/second
+
+
+3/2/16 4:10:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3669
+jvm.class-loading.loaded.total
+             value = 3669
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.018582912857583
+jvm.memory.heap.used
+             value = 34957160
+jvm.memory.non-heap.committed
+             value = 28311552
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.7603656E7
+jvm.memory.non-heap.used
+             value = 27603656
+jvm.memory.pools.Code-Cache.committed
+             value = 5505024
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.021635691324869793
+jvm.memory.pools.Code-Cache.used
+             value = 5444800
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2621440
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.002324052155017853
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2495432
+jvm.memory.pools.Metaspace.committed
+             value = 20185088
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9741559709821429
+jvm.memory.pools.Metaspace.used
+             value = 19663424
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.0369098591354658
+jvm.memory.pools.PS-Eden-Space.used
+             value = 25640600
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 157286400
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 62565704
+jvm.os.cpu.load.process
+             value = 1.9499475147491583E-4
+jvm.os.cpu.load.system
+             value = 0.29834388552610835
+jvm.os.physical.memory.free.size
+             value = 872693760
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1255002112
+jvm.os.swap.space.total.size
+             value = 13209157632
+jvm.os.virtual.memory.committed.size
+             value = 277835776
+
+-- Meters ----------------------------------------------------------------------
+gov.azdeq.mydeq.dashboard.service.v1.DashboardRestService.getUserPermit
+             count = 1
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.07 events/second
+    15-minute rate = 0.14 events/second
+
+
+3/2/16 4:11:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3669
+jvm.class-loading.loaded.total
+             value = 3669
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.018582912857583
+jvm.memory.heap.used
+             value = 34957160
+jvm.memory.non-heap.committed
+             value = 28311552
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.7639144E7
+jvm.memory.non-heap.used
+             value = 27639144
+jvm.memory.pools.Code-Cache.committed
+             value = 5505024
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.021748860677083332
+jvm.memory.pools.Code-Cache.used
+             value = 5473280
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2621440
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.002324052155017853
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2495432
+jvm.memory.pools.Metaspace.committed
+             value = 20185088
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9745031579748377
+jvm.memory.pools.Metaspace.used
+             value = 19670432
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.0369098591354658
+jvm.memory.pools.PS-Eden-Space.used
+             value = 25640600
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 157286400
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 62597200
+jvm.os.cpu.load.process
+             value = 1.9497850218311446E-4
+jvm.os.cpu.load.system
+             value = 0.3309749172411182
+jvm.os.physical.memory.free.size
+             value = 899874816
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1297121280
+jvm.os.swap.space.total.size
+             value = 13209157632
+jvm.os.virtual.memory.committed.size
+             value = 278032384
+
+-- Meters ----------------------------------------------------------------------
+gov.azdeq.mydeq.dashboard.service.v1.DashboardRestService.getUserPermit
+             count = 1
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.06 events/second
+    15-minute rate = 0.13 events/second
+
+
+3/2/16 4:12:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3669
+jvm.class-loading.loaded.total
+             value = 3669
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.018673491717182276
+jvm.memory.heap.used
+             value = 35127552
+jvm.memory.non-heap.committed
+             value = 28377088
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.7700456E7
+jvm.memory.non-heap.used
+             value = 27700456
+jvm.memory.pools.Code-Cache.committed
+             value = 5570560
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.021871185302734374
+jvm.memory.pools.Code-Cache.used
+             value = 5504064
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2621440
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.002324052155017853
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2495432
+jvm.memory.pools.Metaspace.committed
+             value = 20185088
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9760155615868507
+jvm.memory.pools.Metaspace.used
+             value = 19700960
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.03715513985112028
+jvm.memory.pools.PS-Eden-Space.used
+             value = 25810992
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 157351936
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 62828712
+jvm.os.cpu.load.process
+             value = 3.900090047001834E-4
+jvm.os.cpu.load.system
+             value = 0.3681854123857029
+jvm.os.physical.memory.free.size
+             value = 860119040
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1258397696
+jvm.os.swap.space.total.size
+             value = 13209157632
+jvm.os.virtual.memory.committed.size
+             value = 278605824
+
+-- Meters ----------------------------------------------------------------------
+gov.azdeq.mydeq.dashboard.service.v1.DashboardRestService.getUserPermit
+             count = 1
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.05 events/second
+    15-minute rate = 0.12 events/second
+
+
+3/2/16 4:13:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3669
+jvm.class-loading.loaded.total
+             value = 3669
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.018673491717182276
+jvm.memory.heap.used
+             value = 35127552
+jvm.memory.non-heap.committed
+             value = 28442624
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.7785256E7
+jvm.memory.non-heap.used
+             value = 27785256
+jvm.memory.pools.Code-Cache.committed
+             value = 5636096
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.02218170166015625
+jvm.memory.pools.Code-Cache.used
+             value = 5582208
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2621440
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.002324052155017853
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2495432
+jvm.memory.pools.Metaspace.committed
+             value = 20185088
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.976345309963474
+jvm.memory.pools.Metaspace.used
+             value = 19707616
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.03715513985112028
+jvm.memory.pools.PS-Eden-Space.used
+             value = 25810992
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 157417472
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 62912808
+jvm.os.cpu.load.process
+             value = 5.846626685180021E-4
+jvm.os.cpu.load.system
+             value = 0.36850987398344953
+jvm.os.physical.memory.free.size
+             value = 865726464
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1239347200
+jvm.os.swap.space.total.size
+             value = 13209157632
+jvm.os.virtual.memory.committed.size
+             value = 277315584
+
+-- Meters ----------------------------------------------------------------------
+gov.azdeq.mydeq.dashboard.service.v1.DashboardRestService.getUserPermit
+             count = 1
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.04 events/second
+    15-minute rate = 0.12 events/second
+
+
+3/2/16 4:14:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3669
+jvm.class-loading.loaded.total
+             value = 3669
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.018673491717182276
+jvm.memory.heap.used
+             value = 35127552
+jvm.memory.non-heap.committed
+             value = 28508160
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.7815976E7
+jvm.memory.non-heap.used
+             value = 27815976
+jvm.memory.pools.Code-Cache.committed
+             value = 5701632
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.022279103597005207
+jvm.memory.pools.Code-Cache.used
+             value = 5606720
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2621440
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.002324052155017853
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2495432
+jvm.memory.pools.Metaspace.committed
+             value = 20185088
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9766528637378247
+jvm.memory.pools.Metaspace.used
+             value = 19713824
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.03715513985112028
+jvm.memory.pools.PS-Eden-Space.used
+             value = 25810992
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 157483008
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 62943528
+jvm.os.cpu.load.process
+             value = 6.501125360923496E-5
+jvm.os.cpu.load.system
+             value = 0.3741157943823503
+jvm.os.physical.memory.free.size
+             value = 768331776
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1083326464
+jvm.os.swap.space.total.size
+             value = 13209157632
+jvm.os.virtual.memory.committed.size
+             value = 275845120
+
+-- Meters ----------------------------------------------------------------------
+gov.azdeq.mydeq.dashboard.service.v1.DashboardRestService.getUserPermit
+             count = 1
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.03 events/second
+    15-minute rate = 0.11 events/second
+
+
+3/2/16 4:15:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3669
+jvm.class-loading.loaded.total
+             value = 3669
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.018673491717182276
+jvm.memory.heap.used
+             value = 35127552
+jvm.memory.non-heap.committed
+             value = 28704768
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.8037408E7
+jvm.memory.non-heap.used
+             value = 28037408
+jvm.memory.pools.Code-Cache.committed
+             value = 5898240
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.02303593953450521
+jvm.memory.pools.Code-Cache.used
+             value = 5797184
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2621440
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.002324052155017853
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2495432
+jvm.memory.pools.Metaspace.committed
+             value = 20185088
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.978187065619927
+jvm.memory.pools.Metaspace.used
+             value = 19744792
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.03715513985112028
+jvm.memory.pools.PS-Eden-Space.used
+             value = 25810992
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 157679616
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 63846528
+jvm.os.cpu.load.process
+             value = 3.250673969582882E-4
+jvm.os.cpu.load.system
+             value = 0.37783136568937
+jvm.os.physical.memory.free.size
+             value = 870162432
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1254522880
+jvm.os.swap.space.total.size
+             value = 13209157632
+jvm.os.virtual.memory.committed.size
+             value = 280256512
+
+-- Meters ----------------------------------------------------------------------
+gov.azdeq.mydeq.dashboard.service.v1.DashboardRestService.getUserPermit
+             count = 1
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.03 events/second
+    15-minute rate = 0.10 events/second
+
+
+3/2/16 4:16:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3669
+jvm.class-loading.loaded.total
+             value = 3669
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.019126386015178635
+jvm.memory.heap.used
+             value = 35979512
+jvm.memory.non-heap.committed
+             value = 28704768
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.8040088E7
+jvm.memory.non-heap.used
+             value = 28040088
+jvm.memory.pools.Code-Cache.committed
+             value = 5898240
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.023044840494791666
+jvm.memory.pools.Code-Cache.used
+             value = 5799424
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2621440
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.002324052155017853
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2495432
+jvm.memory.pools.Metaspace.committed
+             value = 20185088
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9782088638900163
+jvm.memory.pools.Metaspace.used
+             value = 19745232
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.03838154342939269
+jvm.memory.pools.PS-Eden-Space.used
+             value = 26662952
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 157679616
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 64019600
+jvm.os.cpu.load.process
+             value = 1.3006585845861112E-4
+jvm.os.cpu.load.system
+             value = 0.35662923155135506
+jvm.os.physical.memory.free.size
+             value = 814211072
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1192435712
+jvm.os.swap.space.total.size
+             value = 13209157632
+jvm.os.virtual.memory.committed.size
+             value = 275103744
+
+-- Meters ----------------------------------------------------------------------
+gov.azdeq.mydeq.dashboard.service.v1.DashboardRestService.getUserPermit
+             count = 1
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.02 events/second
+    15-minute rate = 0.10 events/second
+
+
+3/2/16 4:17:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3671
+jvm.class-loading.loaded.total
+             value = 3671
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.019861121374362023
+jvm.memory.heap.used
+             value = 37361656
+jvm.memory.non-heap.committed
+             value = 28704768
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.8085432E7
+jvm.memory.non-heap.used
+             value = 28085432
+jvm.memory.pools.Code-Cache.committed
+             value = 5898240
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.023135630289713542
+jvm.memory.pools.Code-Cache.used
+             value = 5822272
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2621440
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.002325579524040222
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2497072
+jvm.memory.pools.Metaspace.committed
+             value = 20185088
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9792421018922484
+jvm.memory.pools.Metaspace.used
+             value = 19766088
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.040371151330336086
+jvm.memory.pools.PS-Eden-Space.used
+             value = 28045096
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 157679616
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 65453680
+jvm.os.cpu.load.process
+             value = 5.197955242806811E-4
+jvm.os.cpu.load.system
+             value = 1.0
+jvm.os.physical.memory.free.size
+             value = 825339904
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1222234112
+jvm.os.swap.space.total.size
+             value = 13209157632
+jvm.os.virtual.memory.committed.size
+             value = 276971520
+
+-- Meters ----------------------------------------------------------------------
+gov.azdeq.mydeq.dashboard.service.v1.DashboardRestService.getUserPermit
+             count = 1
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.02 events/second
+    15-minute rate = 0.09 events/second
+
+
+3/2/16 4:18:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3672
+jvm.class-loading.loaded.total
+             value = 3672
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.020042313115386793
+jvm.memory.heap.used
+             value = 37702504
+jvm.memory.non-heap.committed
+             value = 28704768
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.8134608E7
+jvm.memory.non-heap.used
+             value = 28134608
+jvm.memory.pools.Code-Cache.committed
+             value = 5898240
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.02329254150390625
+jvm.memory.pools.Code-Cache.used
+             value = 5861760
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2621440
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.0023261085152626038
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2497640
+jvm.memory.pools.Metaspace.committed
+             value = 20185088
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9796939205813717
+jvm.memory.pools.Metaspace.used
+             value = 19775208
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.04086180489018278
+jvm.memory.pools.PS-Eden-Space.used
+             value = 28385944
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 157679616
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 65839656
+jvm.os.cpu.load.process
+             value = 1.952126845332635E-4
+jvm.os.cpu.load.system
+             value = 0.28250961192337953
+jvm.os.physical.memory.free.size
+             value = 832630784
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1232900096
+jvm.os.swap.space.total.size
+             value = 13209157632
+jvm.os.virtual.memory.committed.size
+             value = 275714048
+
+-- Meters ----------------------------------------------------------------------
+gov.azdeq.mydeq.dashboard.service.v1.DashboardRestService.getUserPermit
+             count = 1
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.01 events/second
+    15-minute rate = 0.08 events/second
+
+
+3/2/16 4:19:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3673
+jvm.class-loading.loaded.total
+             value = 3673
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.020042313115386793
+jvm.memory.heap.used
+             value = 37702504
+jvm.memory.non-heap.committed
+             value = 28770304
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.8145928E7
+jvm.memory.non-heap.used
+             value = 28145928
+jvm.memory.pools.Code-Cache.committed
+             value = 5963776
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.02332127888997396
+jvm.memory.pools.Code-Cache.used
+             value = 5868992
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2621440
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.002326570451259613
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2498136
+jvm.memory.pools.Metaspace.committed
+             value = 20185088
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.979871873731737
+jvm.memory.pools.Metaspace.used
+             value = 19778800
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.04086180489018278
+jvm.memory.pools.PS-Eden-Space.used
+             value = 28385944
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 157745152
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 65848432
+jvm.os.cpu.load.process
+             value = 1.950695214064494E-4
+jvm.os.cpu.load.system
+             value = 0.3328733561233076
+jvm.os.physical.memory.free.size
+             value = 831508480
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1226420224
+jvm.os.swap.space.total.size
+             value = 13209157632
+jvm.os.virtual.memory.committed.size
+             value = 275779584
+
+-- Meters ----------------------------------------------------------------------
+gov.azdeq.mydeq.dashboard.service.v1.DashboardRestService.getUserPermit
+             count = 1
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.01 events/second
+    15-minute rate = 0.08 events/second
+
+
+3/2/16 4:20:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3673
+jvm.class-loading.loaded.total
+             value = 3673
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.020132960018638516
+jvm.memory.heap.used
+             value = 37873024
+jvm.memory.non-heap.committed
+             value = 28770304
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.8111112E7
+jvm.memory.non-heap.used
+             value = 28111112
+jvm.memory.pools.Code-Cache.committed
+             value = 5963776
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.02318293253580729
+jvm.memory.pools.Code-Cache.used
+             value = 5834176
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2621440
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.002326570451259613
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2498136
+jvm.memory.pools.Metaspace.committed
+             value = 20185088
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.979871873731737
+jvm.memory.pools.Metaspace.used
+             value = 19778800
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.041107269862912736
+jvm.memory.pools.PS-Eden-Space.used
+             value = 28556464
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 157745152
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 65984136
+jvm.os.cpu.load.process
+             value = 6.50231456155885E-5
+jvm.os.cpu.load.system
+             value = 0.4073790539780895
+jvm.os.physical.memory.free.size
+             value = 813117440
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1191452672
+jvm.os.swap.space.total.size
+             value = 13209157632
+jvm.os.virtual.memory.committed.size
+             value = 278282240
+
+-- Meters ----------------------------------------------------------------------
+gov.azdeq.mydeq.dashboard.service.v1.DashboardRestService.getUserPermit
+             count = 1
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.01 events/second
+    15-minute rate = 0.07 events/second
+
+
+3/2/16 4:21:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3673
+jvm.class-loading.loaded.total
+             value = 3673
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.020132960018638516
+jvm.memory.heap.used
+             value = 37873024
+jvm.memory.non-heap.committed
+             value = 28770304
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.8080584E7
+jvm.memory.non-heap.used
+             value = 28080584
+jvm.memory.pools.Code-Cache.committed
+             value = 5963776
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.023055521647135417
+jvm.memory.pools.Code-Cache.used
+             value = 5802112
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2621440
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.002326570451259613
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2498136
+jvm.memory.pools.Metaspace.committed
+             value = 20185088
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9799479695109578
+jvm.memory.pools.Metaspace.used
+             value = 19780336
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.041107269862912736
+jvm.memory.pools.PS-Eden-Space.used
+             value = 28556464
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 157745152
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 65953608
+jvm.os.cpu.load.process
+             value = 2.6002333571134817E-4
+jvm.os.cpu.load.system
+             value = 0.34167494749474947
+jvm.os.physical.memory.free.size
+             value = 828375040
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1235083264
+jvm.os.swap.space.total.size
+             value = 13209157632
+jvm.os.virtual.memory.committed.size
+             value = 276611072
+
+-- Meters ----------------------------------------------------------------------
+gov.azdeq.mydeq.dashboard.service.v1.DashboardRestService.getUserPermit
+             count = 1
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.01 events/second
+    15-minute rate = 0.07 events/second
+
+
+3/2/16 4:22:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3673
+jvm.class-loading.loaded.total
+             value = 3673
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.020495300973405274
+jvm.memory.heap.used
+             value = 38554640
+jvm.memory.non-heap.committed
+             value = 28770304
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.8084552E7
+jvm.memory.non-heap.used
+             value = 28084552
+jvm.memory.pools.Code-Cache.committed
+             value = 5963776
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.023067982991536458
+jvm.memory.pools.Code-Cache.used
+             value = 5805248
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2621440
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.002326570451259613
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2498136
+jvm.memory.pools.Metaspace.committed
+             value = 20185088
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9799891880580357
+jvm.memory.pools.Metaspace.used
+             value = 19781168
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.04208846182193396
+jvm.memory.pools.PS-Eden-Space.used
+             value = 29238080
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 157745152
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 66639192
+jvm.os.cpu.load.process
+             value = 1.9503700515897078E-4
+jvm.os.cpu.load.system
+             value = 0.368610725996928
+jvm.os.physical.memory.free.size
+             value = 803250176
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1214496768
+jvm.os.swap.space.total.size
+             value = 13209157632
+jvm.os.virtual.memory.committed.size
+             value = 276611072
+
+-- Meters ----------------------------------------------------------------------
+gov.azdeq.mydeq.dashboard.service.v1.DashboardRestService.getUserPermit
+             count = 1
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.01 events/second
+    15-minute rate = 0.06 events/second
+
+
+3/2/16 4:23:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3673
+jvm.class-loading.loaded.total
+             value = 3673
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.020495300973405274
+jvm.memory.heap.used
+             value = 38554640
+jvm.memory.non-heap.committed
+             value = 28770304
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.80974E7
+jvm.memory.non-heap.used
+             value = 28097400
+jvm.memory.pools.Code-Cache.committed
+             value = 5963776
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.023097483317057292
+jvm.memory.pools.Code-Cache.used
+             value = 5812672
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2621440
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.002326570451259613
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2498136
+jvm.memory.pools.Metaspace.committed
+             value = 20185088
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9802579012784091
+jvm.memory.pools.Metaspace.used
+             value = 19786592
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.04208846182193396
+jvm.memory.pools.PS-Eden-Space.used
+             value = 29238080
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 157745152
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 66652040
+jvm.os.cpu.load.process
+             value = 3.250345867920125E-4
+jvm.os.cpu.load.system
+             value = 0.3826190165809027
+jvm.os.physical.memory.free.size
+             value = 784752640
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1200107520
+jvm.os.swap.space.total.size
+             value = 13209157632
+jvm.os.virtual.memory.committed.size
+             value = 277041152
+
+-- Meters ----------------------------------------------------------------------
+gov.azdeq.mydeq.dashboard.service.v1.DashboardRestService.getUserPermit
+             count = 1
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.01 events/second
+    15-minute rate = 0.06 events/second
+
+
+3/2/16 4:24:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3673
+jvm.class-loading.loaded.total
+             value = 3673
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.020585909602102496
+jvm.memory.heap.used
+             value = 38725088
+jvm.memory.non-heap.committed
+             value = 28770304
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.812716E7
+jvm.memory.non-heap.used
+             value = 28127160
+jvm.memory.pools.Code-Cache.committed
+             value = 5963776
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.023193359375
+jvm.memory.pools.Code-Cache.used
+             value = 5836800
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2621440
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.002326570451259613
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2498136
+jvm.memory.pools.Metaspace.committed
+             value = 20185088
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.980536919135552
+jvm.memory.pools.Metaspace.used
+             value = 19792224
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.042333823150058965
+jvm.memory.pools.PS-Eden-Space.used
+             value = 29408528
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 157745152
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 66859416
+jvm.os.cpu.load.process
+             value = 2.599886711329401E-4
+jvm.os.cpu.load.system
+             value = 0.37111884387132305
+jvm.os.physical.memory.free.size
+             value = 736935936
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1128050688
+jvm.os.swap.space.total.size
+             value = 13209157632
+jvm.os.virtual.memory.committed.size
+             value = 276463616
+
+-- Meters ----------------------------------------------------------------------
+gov.azdeq.mydeq.dashboard.service.v1.DashboardRestService.getUserPermit
+             count = 1
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.00 events/second
+    15-minute rate = 0.06 events/second
+
+
+3/2/16 4:25:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3673
+jvm.class-loading.loaded.total
+             value = 3673
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.020585909602102496
+jvm.memory.heap.used
+             value = 38725088
+jvm.memory.non-heap.committed
+             value = 28770304
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.8192216E7
+jvm.memory.non-heap.used
+             value = 28192216
+jvm.memory.pools.Code-Cache.committed
+             value = 5963776
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.023407491048177083
+jvm.memory.pools.Code-Cache.used
+             value = 5890688
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2621440
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.002326570451259613
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2498136
+jvm.memory.pools.Metaspace.committed
+             value = 20185088
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9811072411475243
+jvm.memory.pools.Metaspace.used
+             value = 19803736
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.042333823150058965
+jvm.memory.pools.PS-Eden-Space.used
+             value = 29408528
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 157745152
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 66919376
+jvm.os.cpu.load.process
+             value = 1.9506622363309883E-4
+jvm.os.cpu.load.system
+             value = 0.36301190199439615
+jvm.os.physical.memory.free.size
+             value = 783024128
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1202229248
+jvm.os.swap.space.total.size
+             value = 13209157632
+jvm.os.virtual.memory.committed.size
+             value = 277245952
+
+-- Meters ----------------------------------------------------------------------
+gov.azdeq.mydeq.dashboard.service.v1.DashboardRestService.getUserPermit
+             count = 1
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.00 events/second
+    15-minute rate = 0.05 events/second
+
+
+3/2/16 4:26:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3673
+jvm.class-loading.loaded.total
+             value = 3673
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.020585909602102496
+jvm.memory.heap.used
+             value = 38725088
+jvm.memory.non-heap.committed
+             value = 28835840
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.8222272E7
+jvm.memory.non-heap.used
+             value = 28222272
+jvm.memory.pools.Code-Cache.committed
+             value = 6029312
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.02345555623372396
+jvm.memory.pools.Code-Cache.used
+             value = 5902784
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2621440
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.002326570451259613
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2498136
+jvm.memory.pools.Metaspace.committed
+             value = 20185088
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9819799646154627
+jvm.memory.pools.Metaspace.used
+             value = 19821352
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.042333823150058965
+jvm.memory.pools.PS-Eden-Space.used
+             value = 29408528
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 157810688
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 66947360
+jvm.os.cpu.load.process
+             value = 1.3000950063337557E-4
+jvm.os.cpu.load.system
+             value = 0.36184836655777053
+jvm.os.physical.memory.free.size
+             value = 791416832
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1214369792
+jvm.os.swap.space.total.size
+             value = 13209157632
+jvm.os.virtual.memory.committed.size
+             value = 277311488
+
+-- Meters ----------------------------------------------------------------------
+gov.azdeq.mydeq.dashboard.service.v1.DashboardRestService.getUserPermit
+             count = 1
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.00 events/second
+    15-minute rate = 0.05 events/second
+
+
+3/2/16 4:27:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3673
+jvm.class-loading.loaded.total
+             value = 3673
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.02067650547261488
+jvm.memory.heap.used
+             value = 38895512
+jvm.memory.non-heap.committed
+             value = 28835840
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.8231056E7
+jvm.memory.non-heap.used
+             value = 28231056
+jvm.memory.pools.Code-Cache.committed
+             value = 6029312
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.02348353068033854
+jvm.memory.pools.Code-Cache.used
+             value = 5909824
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2621440
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.002326570451259613
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2498136
+jvm.memory.pools.Metaspace.committed
+             value = 20185088
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.982066365031453
+jvm.memory.pools.Metaspace.used
+             value = 19823096
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.04257914992998231
+jvm.memory.pools.PS-Eden-Space.used
+             value = 29578952
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 157810688
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 67126568
+jvm.os.cpu.load.process
+             value = 6.500475031668779E-5
+jvm.os.cpu.load.system
+             value = 0.32863093872924865
+jvm.os.physical.memory.free.size
+             value = 796553216
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1221328896
+jvm.os.swap.space.total.size
+             value = 13209157632
+jvm.os.virtual.memory.committed.size
+             value = 275189760
+
+-- Meters ----------------------------------------------------------------------
+gov.azdeq.mydeq.dashboard.service.v1.DashboardRestService.getUserPermit
+             count = 1
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.00 events/second
+    15-minute rate = 0.05 events/second
+
+
+3/2/16 4:28:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3673
+jvm.class-loading.loaded.total
+             value = 3673
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.02067650547261488
+jvm.memory.heap.used
+             value = 38895512
+jvm.memory.non-heap.committed
+             value = 28835840
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.8235512E7
+jvm.memory.non-heap.used
+             value = 28235512
+jvm.memory.pools.Code-Cache.committed
+             value = 6029312
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.023494466145833334
+jvm.memory.pools.Code-Cache.used
+             value = 5912576
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2621440
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.002326570451259613
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2498136
+jvm.memory.pools.Metaspace.committed
+             value = 20185088
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.982150783786526
+jvm.memory.pools.Metaspace.used
+             value = 19824800
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.04257914992998231
+jvm.memory.pools.PS-Eden-Space.used
+             value = 29578952
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 157810688
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 67812640
+jvm.os.cpu.load.process
+             value = 6.500583381948495E-5
+jvm.os.cpu.load.system
+             value = 0.3762040186682224
+jvm.os.physical.memory.free.size
+             value = 772108288
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1189269504
+jvm.os.swap.space.total.size
+             value = 13209157632
+jvm.os.virtual.memory.committed.size
+             value = 275435520
+
+-- Meters ----------------------------------------------------------------------
+gov.azdeq.mydeq.dashboard.service.v1.DashboardRestService.getUserPermit
+             count = 1
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.00 events/second
+    15-minute rate = 0.04 events/second
+
+
+3/2/16 4:29:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3673
+jvm.class-loading.loaded.total
+             value = 3673
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.021038846427381637
+jvm.memory.heap.used
+             value = 39577128
+jvm.memory.non-heap.committed
+             value = 29097984
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.8247728E7
+jvm.memory.non-heap.used
+             value = 28247728
+jvm.memory.pools.Code-Cache.committed
+             value = 6029312
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.023497772216796876
+jvm.memory.pools.Code-Cache.used
+             value = 5913408
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2621440
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.002326570451259613
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2498136
+jvm.memory.pools.Metaspace.committed
+             value = 20447232
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9701870649288862
+jvm.memory.pools.Metaspace.used
+             value = 19837640
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.04356034188900354
+jvm.memory.pools.PS-Eden-Space.used
+             value = 30260568
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 158072832
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 67833800
+jvm.os.cpu.load.process
+             value = 1.9498825078328107E-4
+jvm.os.cpu.load.system
+             value = 0.3132513799080061
+jvm.os.physical.memory.free.size
+             value = 740409344
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1163522048
+jvm.os.swap.space.total.size
+             value = 13209157632
+jvm.os.virtual.memory.committed.size
+             value = 275697664
+
+-- Meters ----------------------------------------------------------------------
+gov.azdeq.mydeq.dashboard.service.v1.DashboardRestService.getUserPermit
+             count = 1
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.00 events/second
+    15-minute rate = 0.04 events/second
+
+
+3/2/16 4:30:55 PM ==============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.class-loading.loaded.current
+             value = 3673
+jvm.class-loading.loaded.total
+             value = 3673
+jvm.class-loading.unloaded.total
+             value = 0
+jvm.memory.heap.committed
+             value = 128974848
+jvm.memory.heap.init
+             value = 134217728
+jvm.memory.heap.max
+             value = 1881145344
+jvm.memory.heap.usage
+             value = 0.021038846427381637
+jvm.memory.heap.used
+             value = 39577128
+jvm.memory.non-heap.committed
+             value = 29097984
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -2.8258744E7
+jvm.memory.non-heap.used
+             value = 28258744
+jvm.memory.pools.Code-Cache.committed
+             value = 6029312
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.023534647623697915
+jvm.memory.pools.Code-Cache.used
+             value = 5922688
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 2621440
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.002326570451259613
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 2498136
+jvm.memory.pools.Metaspace.committed
+             value = 20447232
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9702007587139423
+jvm.memory.pools.Metaspace.used
+             value = 19837920
+jvm.memory.pools.PS-Eden-Space.committed
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.init
+             value = 34078720
+jvm.memory.pools.PS-Eden-Space.max
+             value = 694681600
+jvm.memory.pools.PS-Eden-Space.usage
+             value = 0.04356034188900354
+jvm.memory.pools.PS-Eden-Space.used
+             value = 30260568
+jvm.memory.pools.PS-Old-Gen.committed
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.init
+             value = 89653248
+jvm.memory.pools.PS-Old-Gen.max
+             value = 1410859008
+jvm.memory.pools.PS-Old-Gen.usage
+             value = 0.002908197046433714
+jvm.memory.pools.PS-Old-Gen.used
+             value = 4103056
+jvm.memory.pools.PS-Survivor-Space.committed
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.init
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.max
+             value = 5242880
+jvm.memory.pools.PS-Survivor-Space.usage
+             value = 0.99439697265625
+jvm.memory.pools.PS-Survivor-Space.used
+             value = 5213504
+jvm.memory.total.committed
+             value = 158072832
+jvm.memory.total.init
+             value = 136773632
+jvm.memory.total.max
+             value = 1881145343
+jvm.memory.total.used
+             value = 67835872
+jvm.os.cpu.load.process
+             value = 1.300181690892119E-4
+jvm.os.cpu.load.system
+             value = 0.3268309307907721
+jvm.os.physical.memory.free.size
+             value = 764936192
+jvm.os.physical.memory.total.size
+             value = 8458977280
+jvm.os.swap.space.free.size
+             value = 1189597184
+jvm.os.swap.space.total.size
+             value = 13209157632
+jvm.os.virtual.memory.committed.size
+             value = 275697664
+
+-- Meters ----------------------------------------------------------------------
+gov.azdeq.mydeq.dashboard.service.v1.DashboardRestService.getUserPermit
+             count = 1
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.00 events/second
+    15-minute rate = 0.04 events/second
+
+
+2016-03-02 16:31:48 INFO  DataEndpoint:290 - Shutdown triggered for data publisher endpoint URL - tcp://localhost:7611
+2016-03-02 16:31:48 INFO  AbstractReporter:52 - Stopped JMX reporter for Metrics
+2016-03-02 16:31:48 INFO  DataEndpoint:290 - Shutdown triggered for data publisher endpoint URL - tcp://localhost:7611
+2016-03-02 16:31:48 INFO  DataEndpoint:300 - Completed shutdown for data publisher endpoint URL - tcp://localhost:7611
+2016-03-02 16:31:48 INFO  AbstractReporter:52 - Stopped DAS reporter for Metrics
+2016-03-02 16:31:48 INFO  AbstractReporter:52 - Stopped Console reporter for Metrics
+2016-03-02 16:31:48 WARN  DataEndpointConnectionWorker:120 - Cannot connect to the server at ssl://localhost:7711##admin##admin Authenticator
+2016-03-02 16:31:48 INFO  DataEndpoint:300 - Completed shutdown for data publisher endpoint URL - tcp://localhost:7611
